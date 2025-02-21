@@ -13,5 +13,9 @@ public class HelloWorld {
         // Print the current date
         System.out.println("Current Date and Time: " + formatter.format(date));
 System.out.println("2nd commit.....");
+
+        Student student = new Student(); // This will call the non-parameterized constructor
+        student.hello(); // Calling the hello method
+ 
     }
 }
